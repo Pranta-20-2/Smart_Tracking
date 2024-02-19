@@ -5,3 +5,11 @@
 .font-inter{
     font-family: "Inter", sans-serif;
 }
+li{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    list-style: numeric;
+    justify-content: space-between;
+    margin: 10px 6px 6px 25px;
+}
