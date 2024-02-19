@@ -1,5 +1,11 @@
-function setBackgroundColorById(elementId){
-    const element=document.getElementsByClassName(elementId);
-    element.classList.add('bg-orange-400');
-
+function hideElementById(elementId) {
+    const element = document.getElementById(elementId);
+    element.classList.add('hidden');
 }
+function setElementById(elementId) {
+    const element = document.getElementById(elementId);
+    element.classList.remove('hidden');
+}
+function applyBtn() {
+ 
+} 
